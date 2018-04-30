@@ -24,7 +24,7 @@ class PersonalityBox extends React.Component{
 						<Card className = "hoverable center-aligned" header={<CardTitle reveal image={pink} waves='light'/>}
     						title="Eva"
     						reveal={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget accumsan arcu. Pellentesque auctor libero vel elit cursus sodales. Maecenas pellentesque lectus eu mauris ultricies feugiat. Maecenas scelerisque diam non elit pellentesque ultricies. Integer cursus at turpis et rhoncus.</p>}>
-    						<p>Balls</p>
+    						<p>Quote</p>
 						</Card>
 					</Col>
 					<Col s={3}>
