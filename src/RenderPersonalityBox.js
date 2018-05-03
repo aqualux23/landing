@@ -12,16 +12,16 @@ import cyan from './img/CyanOrb.jpg';
 import purple from './img/PurpleOrb.jpg';
 import green from './img/GreenOrb.jpg';
 
-//const klass = classNames(`${hoverable} ${center-aligned}`);
+
 class PersonalityBox extends React.Component{
 
 	render(){
 
 		return (
-			<div>				
+			<div className="Personality-box">				
 				<Row>
 					<Col s={3}>
-						<Card className = "hoverable center-aligned" header={<CardTitle reveal image={pink} waves='light'/>}
+						<Card className = "hoverable center-aligned" header={<CardTitle reveal image={pink} waves='light' />}
     						title="Eva"
     						reveal={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget accumsan arcu. Pellentesque auctor libero vel elit cursus sodales. Maecenas pellentesque lectus eu mauris ultricies feugiat. Maecenas scelerisque diam non elit pellentesque ultricies. Integer cursus at turpis et rhoncus.</p>}>
     						<p>Quote</p>

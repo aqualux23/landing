@@ -26,84 +26,19 @@
 
 .App {
   text-align: center;
-
-}
-
-.Video-block {
-  background-color: black;
-  width: 35em;
-  height:20em;
-  margin-top: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-  box-shadow: 0px 3px 5px grey;
-}
-
-.Personality-Options {
+  background-color: white;
   position:relative;
-  z-index: 1;
-  background-color: black;
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  align-items: center;
-  flex:1;
-  width: 35em;
-  height:20em;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 3px 5px grey;
-  border: 5px black;
-  justify-content: space-evenly;
-}
+  height:100%;
+  min-height:100%;
 
-.name {
-  position: relative;
-  z-index: 1;
-  margin-top: 0px;
-
-}
-
-.return-button {
-  position:absolute;
-  bottom: 0px;
-  right: 0px;
-  background-color: green;
-  display: flex;
-  z-index: 1;
-  height: 50px;
-  width: 50px;
-
-}
-
-.Forumn-block {
-  background-color: black;
-  width: 35em;
-  height:26.5em;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 3px 5px grey;
+  margin-bottom: 0;
 }
 
 .App-header {
   background-color: #222;
+  position:relative;
   height: 150px;
   padding: 0.5px;
-  color: white;
-}
-
-.App-footer {
-  bottom:0;
-  background-color: #222;
-  height: 50px;
-  margin-top: 60px;
-  text-align: center;
-}
-
-.Contact {
-  font-size: 1em;
   color: white;
 }
 
@@ -120,11 +55,96 @@
 
 }
 
+.Background {
+  position:absolute;
+  width:100%;
+  height: 100%
+
+}
+
+.Video-Block {
+  width:100%;
+  height:20em;
+  background: rgba(179, 179, 179, 0.5);
+  margin-top: 3em;
+  margin-bottom: 20px;
+  position:relative;
+  box-shadow: 0px 3px 5px rgba(179, 179, 179);
+}
+
+.Video {
+  background-color: black;
+  position: absolute;
+  width: 35em;
+  min-width: 35em;
+  height:20em;
+  left: 50%;
+  margin-left: -17.5em;
+  box-shadow: 0px 3px 5px grey;
+  text-align: center;
+  vertical-align: middle;
+  line-height:20em;
+}
+
+.Play-Button{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: -7%;
+  color: white;
+}
+
+span {
+  display: relative;
+  vertical-align: middle;
+  line-height: 12px;
+}
+
+.Proto-Personalities{
+  position:relative;
+  top: 5em;
+}
+
+.Proto-Header{
+  font-family: 'Princess Sofia', cursive;
+  font-size: 3em;
+  text-shadow: 1px 1px gray;
+}
+
+.Personality-box {
+  position: relative;
+  top: 5em;
+}
+
+.name {
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+
+}
+
+.Survey-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10em;
+  padding-bottom: 4em;
+}
+
+.App-footer {
+  position:absolute;
+  margin-bottom: 0em;
+  background-color: #222;
+  height: 10em;
+  width: 100%;
+  top: 100%;
+  text-align: center;
+}
+
+.Contact {
+  font-size: 1em;
+  color: white;
+}
+
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

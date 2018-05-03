@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Flexbox from 'flexbox-react';
 import * as Survey from 'survey-react';
-import Sortable from 'sortablejs';
 import './survey.css';
 
 var surveyJSON = { 
@@ -290,7 +289,9 @@ class SurveyBox extends React.Component{
 	render(){
 
 		return (
-			<Survey.Survey json={surveyJSON} onComplete={sendDataToServer}/>    	
+			<div className="Survey-box">
+				<Survey.Survey json={surveyJSON} onComplete={sendDataToServer}/>   
+			</div> 	
 			);
 	}
 }
