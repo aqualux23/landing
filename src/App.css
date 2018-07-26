@@ -26,6 +26,7 @@
 
 .App {
   text-align: center;
+  font-size: 20px;
   background-color: white;
   position:relative;
   height:100%;
@@ -38,19 +39,19 @@
   background-color: #222;
   position:relative;
   height: 150px;
-  padding: 0.5px;
+  padding: 0.05em;
   color: white;
 }
 
-.App-title {
+.App-header h1 {
   font-family: 'Princess Sofia', cursive;
-  font-size: 3.5em;
+  font-size: 2.5em;
   
 }
 
-.App-subtitle {
+.App-header h2 {
   font-family:'Junge', serif;
-  font-size: 1.2em; 
+  font-size: .9em; 
   text-align: center;
 
 }
@@ -86,13 +87,6 @@
   line-height:20em;
 }
 
-.Play-Button{
-  position: absolute;
-  margin-top: 20%;
-  margin-left: -7%;
-  color: white;
-}
-
 span {
   display: relative;
   vertical-align: middle;
@@ -101,7 +95,15 @@ span {
 
 .Proto-Personalities{
   position:relative;
-  top: 5em;
+  width: 22em;
+  height: 3em;
+  background-color: rgba(240, 240, 240, 0.3);
+  border-radius: 10px;
+  margin-left: auto ;
+  margin-right: auto;
+  top: 0.05em;
+  
+
 }
 
 .Proto-Header{
@@ -110,9 +112,16 @@ span {
   text-shadow: 1px 1px gray;
 }
 
+.personality-container {
+  position: relative;
+  top: 2em;
+  margin-bottom: 5em;
+  font-size: 15px;
+}
+
 .Personality-box {
   position: relative;
-  top: 5em;
+  
 }
 
 .name {
@@ -126,22 +135,41 @@ span {
   position: relative;
   width: 100%;
   margin-top: 10em;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
 }
 
 .App-footer {
-  position:absolute;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 0em;
   background-color: #222;
   height: 10em;
   width: 100%;
   top: 100%;
   text-align: center;
+
+}
+
+.App-footer h2 {  
+  color: white;
+}
+
+.ContactTitle {
+  font-size: 1.2em;
+  height: 5px;
+  margin-top: 0.5em;
 }
 
 .Contact {
-  font-size: 1em;
-  color: white;
+  font-size: 0.5em;
+  margin-top: 0.2em;
+}
+
+.Email {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+
 }
 
 .App-intro {
