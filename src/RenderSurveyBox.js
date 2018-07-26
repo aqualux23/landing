@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Flexbox from 'flexbox-react';
 import * as Survey from 'survey-react';
 import './survey.css';
 

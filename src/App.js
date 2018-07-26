@@ -25,7 +25,7 @@ class App extends Component {
 
         {/* Web page header */}
         <header className="App-header"> 
-          <img src={Logo} height="150"/>
+          <img src={Logo} alt="Personafi Logo" height="150"/>
         </header>
 
           {/* Calls component to generate particle background */}
